@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0</TargetFrameworks>
-    <LangVersion>11</LangVersion>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <LangVersion>12</LangVersion>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <CodeAnalysisRuleSet>BencodeNET.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
@@ -37,11 +37,11 @@
 
   <!--Dev dependencies -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.5.22" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.12.19" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.IO.Pipelines" Version="6.0.3" />
+    <PackageReference Include="System.IO.Pipelines" Version="9.0.0" />
   </ItemGroup>
 
 </Project>
